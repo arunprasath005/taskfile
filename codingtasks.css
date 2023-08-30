@@ -1,0 +1,717 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0px 100px 0px 100px;
+    height: auto;
+    width: auto;
+    background-color: #2E8CCA;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.start {
+    display: flex;
+}
+
+h3 {
+    padding-top: 65px;
+    padding-left: 10px;
+    font-family: 'Helvetica Rounded';
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-image: url(imagenave/logonew.jpg);
+    background-size: cover;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+
+}
+
+/* li:not(:last-child) {
+    margin-right: 10px;
+} */
+
+li a {
+    padding: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Helvetica Rounded';
+    background-color: transparent;
+}
+
+li a:hover {
+    padding: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Helvetica Rounded';
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.photo {
+    margin: 100px 100px 0px 100px;
+    /*   */
+    background-repeat: no-repeat;
+    height: 1135px;
+    width: auto;
+    background-image: url(imagenextnav/camera.jpg);
+    background-size: contain;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Helvetica Rounded';
+    padding-top: 400px;
+    font-size: 100px;
+}
+
+h3 {
+    /* position: absolute;bottom:100px; left: 700px; */
+    text-align: center;
+    font-size: 20px;
+}
+
+h3 i {
+    margin-top: 30px;
+    height: 70px;
+    width: 90px;
+    padding-top: 18px;
+    border: solid white;
+    font-size: 50px;
+    border-radius: 500px;
+}
+
+.photocamera {
+    margin: 100px 200px 0px 200px;
+    background-repeat: no-repeat;
+    /* height: 1400px;
+    width: 50%; */
+    height: 800px;
+    width: 100%;
+    background-image: url(imagemaain/cameraphotoCROP.jpg);
+    background-size: cover;
+}
+
+.wordings {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 100px 200px 0px 0px;
+}
+
+.mainphoto {
+    display: flex;
+    align-items: center;
+}
+
+.bordertop {
+    height: 3px;
+    width: 50%;
+    background-color: blue;
+    margin-left: 400px;
+}
+
+.borderbottom {
+    height: 3px;
+    width: 50%;
+    background-color: blue;
+    margin-left: 550px;
+}
+
+.contactheading {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica Rounded';
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+    color: #1e6299;
+}
+
+.contactsmainbox {
+    margin-left: 160px;
+    margin-right: 150px;
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 200px;
+    width: 700px;
+    border: solid blue;
+
+}
+
+.box1 i {
+    font-size: 100px;
+}
+
+.boxin {
+    font-family: 'Helvetica Rounded';
+    font-size: 50px;
+    text-align: left;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+/* 
+.mainflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    align-self: auto;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+}
+
+.cardheader {
+    background-image: url(cards/cardimage.jpg); background-size: cover;
+    width: 453px;
+    height: 346px;
+}
+
+.maincardbody {
+    margin-top: 80px;
+    width: 453px;
+    height: 668px;
+    /* filter: drop-shadow(0px 8px 15px rgba(255, 255, 255, 0.15)); */
+
+/* box-sizing: border-box; */
+/* background: #cfcece; */
+/* border-radius: 20px; */
+/* } */
+
+/* .cardfooter h1 {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 35px;
+    font-family: 'Helvetica Rounded';
+    font-size: 46px;
+    color: #000000;
+} */
+/* 
+.cardfooter {
+    position: absolute;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 22px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    color:black;}
+    
+
+   .cardfooter .span1{font-family: 'Helvetica Rounded'; padding-left: 20px;}
+   .cardfooter .span2{padding-left: 20px;}
+     */
+.parentcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    margin-top: 100px;
+}
+
+.maincard {
+    /* margin-left: 180px; */
+    /* margin-right: 160px; */
+    height: 800px;
+    width: 400px;
+    background-color: #2E8CCA;
+    border-radius: 10px;
+}
+
+.cardhead {
+
+    height: 400px;
+    width: 400px;
+    background-image: url(cards/lapres.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardhead21 {
+
+    height: 400px;
+    width: 400px;
+    background-image: url(cards/lapweb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardhead31 {
+
+    height: 400px;
+    width: 400px;
+    background-image: url(cards/lapcorono.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+.cardbody{
+    margin-top: 10px;
+    font-family: 'Helvetica Rounded';
+    font-size: 22px;
+    padding-left: 20px;
+    color: aliceblue;
+
+}
+
+.cardfooter11 button {
+    margin-top: 85px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #1e6299;
+    color: aliceblue;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.cardfooter2 button {
+    margin-top: 50px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #1e6299;
+    color: aliceblue;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.cardfooter3 button {
+    margin-top: 20px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #1e6299;
+    color: aliceblue;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+.cardfooter11 button:hover {
+    margin-top: 85px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #1e6299;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+.cardfooter2 button:hover {
+    margin-top: 50px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #1e6299;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+.cardfooter3 button:hover {
+    margin-top: 20px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #1e6299;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.maintesti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testiphoto {
+    height: 200px;
+    width: 200px;
+    background-image: url(testimonial/testimancrop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1000px;
+    margin-top: 100px;
+    /* margin-left: 900px; */
+}
+
+.testiphoto .vleft i {
+    font-size: 80px;
+}
+
+/* .vright i{
+    padding-right: 800px;
+    font-size: 80px;} */
+
+.left {
+    margin-right: 500px;
+}
+
+.right {
+    margin-left: 500px;
+}
+
+.testiword {
+    color: rgb(95, 95, 95);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alex {
+    font-size: 24px;
+}
+
+/* .portfoliocard{display: flex;flex-wrap: wrap;}
+
+.background{ margin-left: 200px; height: 500px;
+    width: 500px;background-color: #2E8CCA;} */
+
+/* .portfoliochild1 { */
+/* margin-top: 90px;
+        margin-left: 70px; */
+/* height: 350px;
+    width: 350px;
+    background-image: url(portfolio/laopcrop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1e6299;
+}
+ */
+
+.portfolios {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    /* margin-left: 180px;
+margin-right: 100px; */
+}
+
+.boxbackground {
+    height: 400px;
+    width: 500px;
+    background-color: #1b2b38;
+}
+
+.photobox1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width: 250;
+    background-image: url(portfolio/laopcrop.jpg);
+    background-size: cover;
+}
+
+.photobox2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width: 250;
+    background-image: url(portfolio/lapopra.jpg);
+    background-size: cover;
+}
+
+.photobox3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width: 250;
+    background-image: url(portfolio/system.jpg);
+    background-size: cover;
+}
+
+.photobox4 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width: 250;
+    background-image: url(portfolio/comp.jpg);
+    background-size: cover;
+}
+
+.photobox5 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width: 250;
+    background-image: url(portfolio/women.jpg);
+    background-size: cover;
+}
+
+.photobox6 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width: 250;
+    background-image: url(portfolio/group.jpg);
+    background-size: cover;
+}
+
+
+.photobox7 {
+    /* margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 50px; */
+    height: 300px;
+    width: 400PX;
+    background-image: url(portfolio/group.jpg);
+    background-size: cover;
+    margin-left: 180px;
+}
+
+.photobox8 {
+    /* margin-top: 0px;
+    margin-left: 180px;
+    margin-right: 50px; */
+    height: 300px;
+    width: 400PX;
+    background-image: url(portfolio/group.jpg);
+    background-size: cover;
+    margin-left: 180px;
+}
+
+.personal {
+    font-size: 20px;
+    font-family: 'Helvetica Rounded';
+    height: 100px;
+    width: 300PX;
+
+
+}
+
+.personal1 {
+    font-size: 20px;
+    font-family: 'Helvetica Rounded';
+    height: 100px;
+    width: 700PX;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.parentphotobox {
+    display: flex;
+}
+
+.line {
+    border-left: 4px solid rgb(33, 130, 241);
+    height: 250px;
+    margin-left: 100px; 
+    margin-top: 25px;
+}
+/* 
+.lineparent {
+   height: 20px;
+   width: 20px;
+   background-color: #2E8CCA;
+   display: flex;
+   flex-direction: row;
+   
+   
+  } */
+
+
+  .blogheading {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica Rounded';
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+    color: #1e6299;
+}
+
+
+  .parentcard1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.maincard1{
+    /* margin-left: 180px; */
+    /* margin-right: 160px; */
+    height: 1050px;
+    width: 700px;
+    background-color: #2E8CCA;
+    border-radius: 10px;
+}
+
+.cardhead1{
+
+    height: 500px;
+    width: 700px;
+    background-image: url(blog/bloglap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.cardhead2{
+
+    height: 500px;
+    width: 700px;
+    background-image: url(blog/nothinlap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardhead3{
+
+    height: 500px;
+    width: 700px;
+    background-image: url(blog/man\ tab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardhead4{
+
+    height: 500px;
+    width: 700px;
+    background-image: url(blog/lapcoffe.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cardbody1{
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Helvetica Rounded';
+    font-size: 34px;
+    /* padding-right: 20px; */
+    margin-left: 50px;
+    color: aliceblue;
+
+}
+
+.cardfooter1 button {
+    
+    margin-top: 20px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #1e6299;
+    color: aliceblue;
+    margin-right: 450px; 
+    border-radius: 10px;
+}
+
+.name input{width: 500px;
+height: 40px;
+border: none;
+padding-left: 40px;
+filter: drop-shadow(-0px 0px 8px rgba(49, 190, 255, 0.555)) }
+
+.messagebox textarea{ width: 1055px;
+height: 60px;margin-top: 30px;
+padding-left: 40px;
+padding-top: 20px;
+border: none;
+filter: drop-shadow(-0px 0px 8px rgba(49, 190, 255, 0.555))}
+
+
+button.sendbutton{
+    
+    margin-top: 20px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #1e6299;
+    color: aliceblue;
+    margin-right: 0px; 
+    border-radius: 10px;
+}
+
+form{height: 500px;}
